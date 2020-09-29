@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+body{
+    background-image: url(../img/bg.png);
+    background-color: black;
+    background-repeat: no-repeat;  
+    background-size: 100%; 
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main_header_navbar {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#main_header_navbar_logo{
+    width: 70px;
+    margin: auto;
+}
+
+#main_header_navbar_price{
+    text-align: left;
+    font-size: 17px;
+    padding-right: 200px;
+    margin: auto;
+    font-weight: 300;
+}
+
+#main_header_navbar_price:hover{
+    text-align: left;
+    font-size: 17px;
+    padding-right: 200px;
+    margin: auto;
+    color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+#main_header_navbar_link_parent{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+#main_header_navbar_link{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#main_header_navbar_link:hover{
+    color: rgb(194, 194, 194);
+}
+
+#main_header_navbar_burger_menu {
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 20px;
+    padding: 20px auto;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  #main_header_navbar_account_icon{
+      margin: auto;
+      align-items: center;
+      fill: white;
+      height: 28px;
+      padding-left: 35px;
+      cursor: pointer;
+  }
+
+#main_section_first{
+      color: white;
+      margin: 95px;
+      margin-top: 700px;
+      font-size: 15px;
+      font-weight: 400;
+  }
+
+  #main_section_first h2{
+      font-size: 15px;
+      font-weight: 300;
+      color: white;
+  }
+
+  #main_section_first p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(87, 87, 87);
+}
+
+#main_section_first_btn{
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+    margin-top: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+
+#main_section_first_btn:hover{
+    border: 1px solid rgb(150, 150, 150);
+    color: rgb(150, 150, 150);
+    outline: none;
+}
+
+#main_section_another img{
+    height: 480px;
+    margin: 0px -10px;
+}
+
+#main_section_another_image p{
+    float: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .grid-item {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+  }
+
+  .grid-item h1{
+      margin-top: 190px;
+      margin-left: 50px;
+  }
+
+  .grid-item p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(87, 87, 87);
+    margin-left: 50px;
+    margin-right: 80px;
+  }
+
+  .grid-item-right{
+      margin: 0px 95px;
+      color: red;
+  }
+
+  .grid-item-right img{
+    margin-right: -110px;
+  }
+  
+  #main_section_bugatti_back_image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .grid-item h2{
+      margin-left: 50px;
+      font-weight: 400;
+      font-size: 15px;
+  }
+
+  footer{
+      margin-bottom: 50px;
+  }
